@@ -3,9 +3,9 @@ services:
   pg-db:
     image: postgres
     environment:
-      - POSTGRES_DB=testing
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=${PG_DB}
+      - POSTGRES_USER=${PG_USER}
+      - POSTGRES_PASSWORD=${PG_PASS}
 
   web:
     build: .
