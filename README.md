@@ -1,5 +1,6 @@
 ## How
 
+create .env file with (key=value) inside
 docker-comnpose up
 
 ## Note
